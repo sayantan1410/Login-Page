@@ -1,0 +1,108 @@
+
+
+.template {
+    width: 1140px;
+        margin-left: 0;
+        margin-right: 30px;
+        margin-bottom: auto;
+        margin-top: auto;
+    
+}
+
+img {
+    width: 85%;
+    height: 500px;
+    margin-left: 10px;
+    float: left
+    
+    
+}
+
+.loginbox {
+    width: 25%;
+    height: 100%;
+    top:30px;
+    margin-top:30px;
+    margin-left: 1000px;
+    margin-bottom:0;
+    background-color:azure;
+    padding: 3%;
+    box-sizing: border-box;
+    
+    
+
+    
+}
+
+h1{
+    font-family: monospace;
+    font: underline;
+   
+}
+.loginbox p{
+    font-weight: bold;
+   
+}
+.loginbox input {
+    width=20px;
+    margin-bottom: px;
+    font: bold;
+    box-sizing: border-box;
+    
+    
+    
+}
+.loginbox input[type="text"],input[type= "password"]{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    outline-color: aquamarine;
+    outline: none;
+    height: 40px;
+    
+}
+.loginbox input[type="submit"]{
+    margin-top: -40px;
+    width: 80px;
+    height: 25px;
+    background-color: beige;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+    
+
+a {
+    margin-top: -0px;
+    
+}
+
+
+
+.logo {
+    width: 75px;
+    height: 65px;
+    position: absolute;
+    top: 0px;
+    right: 160px;
+    
+    
+}
+
+.techtronista {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    bottom: 1px;
+}
+
+.sattuz {
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    bottom: 9px;
+    left: 520px;
+    
+}
