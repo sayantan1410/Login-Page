@@ -1,3 +1,8 @@
+body{
+    margin-top: -20px;
+    margin-bottom: -10px;
+    padding: 0px;
+}
 
 
 .template {
@@ -6,7 +11,6 @@
         margin-right: 30px;
         margin-bottom: auto;
         margin-top: auto;
-    
 }
 
 img {
@@ -14,8 +18,6 @@ img {
     height: 500px;
     margin-left: 10px;
     float: left
-    
-    
 }
 
 .loginbox {
@@ -28,29 +30,21 @@ img {
     background-color:azure;
     padding: 3%;
     box-sizing: border-box;
-    
-    
-
-    
 }
 
 h1{
     font-family: monospace;
     font: underline;
-   
+    padding-top: 20px;
 }
 .loginbox p{
     font-weight: bold;
-   
 }
 .loginbox input {
     width=20px;
     margin-bottom: px;
     font: bold;
     box-sizing: border-box;
-    
-    
-    
 }
 .loginbox input[type="text"],input[type= "password"]{
     border: none;
@@ -59,7 +53,6 @@ h1{
     outline-color: aquamarine;
     outline: none;
     height: 40px;
-    
 }
 .loginbox input[type="submit"]{
     margin-top: -40px;
@@ -72,14 +65,9 @@ h1{
     border-radius: 20px;
 }
 
-    
-
 a {
-    margin-top: -0px;
-    
+    margin-top: 10px;
 }
-
-
 
 .logo {
     width: 75px;
@@ -87,8 +75,6 @@ a {
     position: absolute;
     top: 0px;
     right: 160px;
-    
-    
 }
 
 .techtronista {
@@ -104,5 +90,76 @@ a {
     position: absolute;
     bottom: 9px;
     left: 520px;
-    
+}
+
+@media only screen and (min-width: 768px){
+    .template{
+        width: 770px;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+    }
+    .logo{
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        left: 450px;
+        top: 600px;
+    }
+    .sattuz{
+        display: none;
+    }
+    .techtronista{
+        display: none;
+    }
+    .loginbox{
+        position: absolute;
+        right: 35px;
+        top: 480px;
+        width: 700px;
+    }
+    h1{
+        padding-left: 50px;
+        padding-top: 00px;
+        font-size: 40px;
+    }
+    p{
+        padding-left: 55px;
+        font-size: 25px;
+        
+    }
+    .loginbox input[type="text"],input[type= "password"]{
+        padding-left: 55px;
+        font-size: 20px;
+        font: bold;
+    }
+}
+@media only screen and (min-width: 360px){
+    .loginbox{
+        position: absolute;
+        top: 600px;
+        right:  -500px;
+        width: 500px;
+        height: 700px;
+    }
+    .sattuz{
+        display: none;
+        
+    }
+    .techtronista{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        top: 1300px;
+        left: 250px;
+        width: 700px;
+        height: 700px;
+    }
+        
+    .template{
+        position: absolute;
+        top: 60px;
+        left: 60px;
+    }
 }
